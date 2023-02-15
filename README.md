@@ -1,27 +1,43 @@
-# Next.js + Tailwind CSS Example
+# Roman Numeral Converter
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A simple React-based web application built using Next.js, Tailwind CSS and TypeScript that converts a given number into its Roman numeral equivalent.
 
-## Deploy your own
+## Getting Started
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+1. Clone the repository and navigate to the project directory:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+git clone https://github.com/<your-username>/roman-numeral-converter.git
+cd roman-numeral-converter
 ```
 
+2. Install dependencies:
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+npm install
 ```
 
+3. Start the development server:
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+4. Open http://localhost:3000 with your browser to see the result.
+
+## Usage
+
+1. Enter a number between 1 and 9999 in the input field.
+
+2. Click the "Convert" button to convert the number to its Roman numeral equivalent.
+
+3. The Roman numeral equivalent of the entered number will be displayed in the second input field.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
