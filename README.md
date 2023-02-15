@@ -7,7 +7,7 @@ A simple React-based web application built using Next.js, Tailwind CSS and TypeS
 1. Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/RinKhimeraq/roman-numeral-converter-v2.git
+git clone https://github.com/RinKhimera/roman-numeral-converter-v2.git
 cd roman-numeral-converter
 ```
 
