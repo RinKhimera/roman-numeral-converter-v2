@@ -90,7 +90,7 @@ class Converter extends React.Component<ConverterProps, ConverterState> {
             </button>
           </form>
           <input
-            className="bg-slate-200 placeholder:text-slate-500 block p-3 rounded-lg "
+            className="bg-slate-100 placeholder:text-slate-500 block p-3 rounded-lg "
             type="text"
             placeholder="Roman Numerals"
             value={this.state.submit}

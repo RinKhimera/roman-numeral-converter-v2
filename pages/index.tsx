@@ -5,7 +5,7 @@ import Converter from "../components/Converter";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-blue-400">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-hero">
       <Head>
         <title>Roman Numeral Converter</title>
         <meta
